@@ -42,6 +42,6 @@ export async function GetUser(user_id,apiKey) {
    }
 
    // console.log(fs)
-    let xx = "玩家用户名:\n"+data.name+"\n玩家昵称:\n"+data.displayName+"\n玩家简介:\n"+data.about+"\n玩家头像:\n"+sa.response.imageUri+"\n创建时间:\n"+data.createTime+"\n用户语言:\n"+data.locale+"\n是否验证:\n"+ver+"\n是否拥有Premium:\n"+pr+"\n拥有好友位数:\n"+fs.count+"位\n"
+    let xx = "玩家用户名:\n"+data.name+"\n玩家昵称:\n"+data.displayName+"\n玩家简介:\n"+data.about+"\n创建时间:\n"+data.createTime+"\n用户语言:\n"+data.locale+"\n是否验证:\n"+ver+"\n是否拥有Premium:\n"+pr+"\n拥有好友位数:\n"+fs.count+"位\n"
     return xx
 };
