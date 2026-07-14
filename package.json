@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-roblox-group-rankup",
   "description": "一个使用RobloxOpenCloud的Api实现的使用指令即可为用户调整角色的插件",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
